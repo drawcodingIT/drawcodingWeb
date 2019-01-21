@@ -1,0 +1,12 @@
+{
+"companyName": "drawcoding",
+"productName": "수룡이의 수정이 체험기",
+"dataUrl": "susucheVer1.0FontImport.data.unityweb",
+"wasmCodeUrl": "susucheVer1.0FontImport.wasm.code.unityweb",
+"wasmFrameworkUrl": "susucheVer1.0FontImport.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
