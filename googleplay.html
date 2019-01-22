@@ -16,53 +16,79 @@
          $('#loading').hide();
        });
 
-       //페이드 인 페이드 아웃
-       /*$(function(){
-         var fadein = $('.fadein');
-         var page = $('.page');
-         fadein.click(funtion(){
-           page.fadeIn();
-         });
-       });*/
+       // //페이드 인 페이드 아웃
+       // $(function(){
+       //   var fadein = $('.fadein');
+       //   var page = $('.page');
+       //   fadein.click(funtion(){
+       //     page.fadeIn();
+       //   });
+       // });
 
-       function disabledHTML(){
-         alert('구현 중인 페이지입니다! 조금만 더 기다려주세요 :)');
-       }
+       // function disabledHTML(){
+       //   alert('구현 중인 페이지입니다! 조금만 더 기다려주세요 :)');
+       // }
     </script>
   </head>
 
   <body>
     <nav class="navbar navbar-light navbar navbar-expand-lg">
-      <a class="navbar-brand" href="index.html">
-        <img src="SuDragonProfile.png" alt="수수체" width="70" height="70">
+      <a style="margin-left:5%;" class="navbar-brand" href="index.html">
+        <img src="SuDragonProfile.png" alt="수수체" width="60" height="60">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav nanumFont">
-          <a class="nav-item nav-link active fadein" href="introduction.html">게임소개 <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link active fadein" href="googleplay.html">구글플레이스토어<span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link disabled fadein" href="#" onclick="disabledHTML()">자유게시판<span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link disabled fadein" href="#" onclick="disabledHTML()">공지사항</a>
+        <div class="navbar-nav nanumFont_b">
+          <a class="nav-item nav-link active" id="fadein" href="introduction.html" style="color:white;">게임소개 <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link active"  id="fadein" href="googleplay.html" style="color:white;">다운로드<span class="sr-only">(current)</span></a>
+          <!-- <a class="nav-item nav-link disabled"  id="fadein" href="#" onclick="disabledHTML()">자유게시판<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link disabled"  id="fadein" href="#" onclick="disabledHTML()">공지사항</a> -->
         </div>
       </div>
     </nav>
 
-    <div style="text-align: center;">
-      <p>구글플레이스토어에서 지금 바로 다운받아보세용! :)</p>
-      <img src="googleplayIMG/start.jpg" />
-      <img src="googleplayIMG/menu.jpg" />
-      <img src="googleplayIMG/game1.jpg" />
-      <img src="googleplayIMG/game2.jpg" />
-      <img src="googleplayIMG/game3.jpg" />
-      <a href="https://play.google.com/store/apps/details?id=com.drawcoding.SuDragon"><img src="googleplayIMG/downloadImg.png" width="360" height="200" alt="download_image"/></a>
-    </div>
+    <div style="text-align: center; margin: 20px 0;" class="page">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          </ol>
+          <div class="carousel-inner"  style="width:900px; height:500px; margin:auto;">
+            <div class="carousel-item active">
+              <img src="googleplayIMG/start.jpg" class="d-block w-100" alt="start_image">
+            </div>
+            <div class="carousel-item">
+              <img src="googleplayIMG/menu.jpg" class="d-block w-100" alt="menu_image">
+            </div>
+            <div class="carousel-item">
+              <img src="googleplayIMG/game1.jpg" class="d-block w-100" alt="game1_image">
+            </div>
+            <div class="carousel-item">
+              <img src="googleplayIMG/game2.jpg" class="d-block w-100" alt="game2_image">
+            </div>
+            <div class="carousel-item">
+              <img src="googleplayIMG/game3.jpg" class="d-block w-100" alt="game3_image">
+            </div>
+          </div>
+      </div>
 
-    <footer class=".nanumFont_s">
-      <p>&copy; copyright 코딩을 그리다</p>
-      <p>웹 및 게임 내 폰트: 나눔글꼴 / 게임 : 유니티 WebGL</p>
-    </footer>
+      <div style="width:900px; margin:2% auto;">
+        <p style="margin: 3% 0; width:50%; float:left; font-size: 150%;" class="nanumFont">수룡이의 수정이 체험기 하러 가기<strong> &gt;&gt;</strong></p>
+        <div style="width:50%; float:right;">
+          <a href='https://play.google.com/store/apps/details?id=com.drawcoding.SuDragon&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='다운로드하기 Google Play' src='https://play.google.com/intl/ko/badges/images/generic/ko_badge_web_generic.png' width="220" height="100"/></a>
+        </div>
+      </div>
+  </div>
+
+  <footer class=".nanumFont">
+    <p>&copy;copyright 코딩을 그리다(drawcoding@gmail.com)</p>
+    <p>웹 및 게임 내 폰트: 나눔글꼴 | Google Play 및 Google Play 로고는 Google LLC의 상표입니다.</p>
+  </footer>
 
     <div id="loading">
       <p id="loadingmsg" class="nanumFont">로딩 중입니다. 잠시만 기다려주세요!!</p>
