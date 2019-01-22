@@ -16,13 +16,13 @@ nav{
    text-align: center;
    font-family: 'Nanum Gothic', sans-serif;
    font-weight: bold;
-   font-size: 120%;
+   font-size: 110%;
  }
 
  .nanumFont_s{
    text-align: center;
    font-family: 'Nanum Gothic', sans-serif;
-   font-size: 110%;
+   font-size: 100%;
  }
 
 strong {
@@ -79,6 +79,15 @@ strong {
   top: 30%;
   width: 100%;
   /* text-align:center;로 가운데 정렬하기 위해서 width:100%; 필요(absolute) */
+}
+
+.instruction{
+  text-align: center;
+  margin: 2% 15%;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  width:100%;
 }
 
  footer{
