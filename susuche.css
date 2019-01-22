@@ -31,15 +31,19 @@ strong {
 }
 
  .PCver{
-   height:100%;
-   width:50%;
+   width:20%;
    float:right;
+   position:absolute;
+   top:40%;
+   right:3%;
  }
 
  .Btnver{
-   height:100%;
-   width:50%;
+   width:20%;
    float:left;
+   position:absolute;
+   top:45%;
+   left:3%;
  }
 
  #loading{
@@ -81,19 +85,18 @@ strong {
   /* text-align:center;로 가운데 정렬하기 위해서 width:100%; 필요(absolute) */
 }
 
-.instruction{
-  text-align: center;
-  margin: 2% 15%;
+/* .instruction{
   position: absolute;
   left: 50%;
   top: 20%;
-  width:100%;
-}
+} */
 
  footer{
    position: absolute;
    left:0;
    bottom:0;
    width:100%;
+   padding:1.5% 0;
    text-align: center;
+   background-color: #ECEBFF;
  }
