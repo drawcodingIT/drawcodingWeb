@@ -28,6 +28,12 @@ nav{
    font-size: 100%;
  }
 
+ .nanumFont_ms{
+   text-align: center;
+   font-family: 'Nanum Gothic', sans-serif;
+   font-size: 80%;
+ }
+
 strong {
   color: #5853EB;
   font-size: 120%;
@@ -97,15 +103,6 @@ strong {
 }
 /* 1259px이하일 때는 키 조작법은 게임 위에 뜨도록 배치 */
 
- footer{
-   position:fixed;
-   left:0px;
-   bottom:0px;
-   width:100%;
-   padding:1% 0;
-   text-align: center;
-   background-color: #DAD9FF;
- }
-/* 브라우저 크기 상관없이 항상 맨 하단에 존재하도록 하기
+/* footer
 -->다음 도전과제: 그냥 해당 페이지의 맨 하단에 footer존재하기, 즉, 스크롤 내려서 맨 밑으로 가지 않는 이상 footer 안 보이기
 */
