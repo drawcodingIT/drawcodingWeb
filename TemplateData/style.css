@@ -1,13 +1,13 @@
-.webgl-content * {border: 0; margin: 0; padding: 0; width:720px; height:400px;}
+.webgl-content * {border: 0; margin: 0; padding: 0;}
 /* 여기서 width, height 지정해주면 그것이 canvas(게임 실제 화면)의 크기가 됨 */
+/* 그러나 게임 이름이 영역을 벗어나므로 다시 삭제해봄 -> width:720px; height:400px; */
 .webgl-content {position:static; width: 720px; height: 400px; margin:auto;}
   /* position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); */
 .webgl-content .logo, .progress {position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
 .webgl-content .logo {background: url('progressLogo.Light.png') no-repeat center / contain; width: 154px; height: 130px;}
 .webgl-content .progress {height: 18px; width: 141px; margin-top: 90px;}
-.webgl-content .progress .empty {background: url('progressEmpty.Light.png') no-repeat right / cover; float: left; width: 0%; height: 100%; display: inline-block;}
-.webgl-content .progress .full {background: url('progressFull.Light.png') no-repeat left / cover; float: right; width: 100%; height: 100%; display: inline-block;}
-/*오른쪽에서 왼쪽으로 게이지가 차길래 왼->오 로 게이지 차도록 바꿈*/
+.webgl-content .progress .empty {background: url('progressEmpty.Light.png') no-repeat right / cover; float: right; width: 100%; height: 100%; display: inline-block;}
+.webgl-content .progress .full {background: url('progressFull.Light.png') no-repeat left / cover; float: left; width: 0%; height: 100%; display: inline-block;}
 
 .webgl-content .logo.Dark {background-image: url('progressLogo.Dark.png');}
 .webgl-content .progress.Dark .empty {background-image: url('progressEmpty.Dark.png');}
