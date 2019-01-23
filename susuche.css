@@ -33,20 +33,16 @@ strong {
   font-size: 120%;
 }
 
- .PCver{
-   width:20%;
-   float:right;
-   position:absolute;
-   top:40%;
-   right:3%;
- }
-
  .Btnver{
+   margin: 2%;
    width:20%;
    float:left;
-   position:absolute;
-   top:45%;
-   left:3%;
+ }
+
+ .PCver{
+   margin: 2%;
+   width:20%;
+   float:right;
  }
 
  #loading{
@@ -93,6 +89,17 @@ strong {
   left: 50%;
   top: 20%;
 } */
+
+@media (max-width:1259px){
+  .Btnver, .PCver{
+    width:45%;
+  }
+
+  .webgl-content{
+    clear:both;
+  }
+}
+/* 1259px이하일 때는 키 조작법은 게임 위에 뜨도록 배치 */
 
  footer{
    position: absolute;
