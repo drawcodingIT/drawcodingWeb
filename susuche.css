@@ -77,11 +77,7 @@ strong {
  /*화면 왼쪽위 기점으로 50%, 50%*/
 
 #introduction {
-  position: absolute;
   text-align: center;
-  top: 30%;
-  width: 100%;
-  /* text-align:center;로 가운데 정렬하기 위해서 width:100%; 필요(absolute) */
 }
 
 /* .instruction{
