@@ -1,4 +1,5 @@
-.webgl-content * {border: 0; margin: 0; padding: 0}
+.webgl-content * {border: 0; margin: 0; padding: 0; width:720px; height:400px;}
+/* 여기서 width, height 지정해주면 그것이 canvas(게임 실제 화면)의 크기가 됨 */
 .webgl-content {position:static; width: 720px; height: 400px; margin:auto;}
   /* position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); */
 .webgl-content .logo, .progress {position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
