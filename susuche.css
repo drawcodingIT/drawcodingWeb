@@ -39,18 +39,6 @@ strong {
   font-size: 120%;
 }
 
- .Btnver{
-   margin: 2%;
-   width:20%;
-   float:left;
- }
-
- .PCver{
-   margin: 2%;
-   width:20%;
-   float:right;
- }
-
  #loading{
    width: 100%;
    height: 100%;
@@ -94,11 +82,25 @@ strong {
 
 @media (max-width:1259px){
   .Btnver, .PCver{
-    width:45%;
+    width:40%;
   }
 
   .webgl-content{
     clear:both;
+  }
+}
+
+@media (min-width:1260px){
+  .Btnver{
+    margin: 2%;
+    width:20%;
+    float:left;
+  }
+
+  .PCver{
+    margin: 2%;
+    width:20%;
+    float:right;
   }
 }
 /* 1259px이하일 때는 키 조작법은 게임 위에 뜨도록 배치 */
