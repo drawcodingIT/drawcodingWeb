@@ -8,6 +8,7 @@ nav{
   background-color: #B5B2FF;
 }
 
+/* 폰트 */
  .nanumFont{
    text-align: center;
    font-family: 'Nanum Gothic', sans-serif;
@@ -39,16 +40,20 @@ strong {
   font-size: 120%;
 }
 
-.Btnver{
-  width:20%;
-  float:left;
-}
+/* 게임 조작방법 */
+ .Btnver{
+   margin: 2%;
+   width:20%;
+   float:left;
+ }
 
-.PCver{
-  width:20%;
-  float:right;
-}
+ .PCver{
+   margin: 2%;
+   width:20%;
+   float:right;
+ }
 
+/* 로딩 */
  #loading{
    width: 100%;
    height: 100%;
@@ -80,6 +85,7 @@ strong {
  }
  /*화면 왼쪽위 기점으로 50%, 50%*/
 
+/* 게임소개 */
 #introduction {
   text-align: center;
 }
@@ -90,6 +96,7 @@ strong {
   top: 20%;
 } */
 
+/* 반응형 웹 디자인 */
 @media (max-width:1259px){
   .Btnver, .PCver{
     width:40%;
