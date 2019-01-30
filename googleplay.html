@@ -6,6 +6,7 @@
     <title>Unity WebGL Player | 수룡이의 수정이 체험기</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="susuche.css" />
+    <!-- 부트스트랩 -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -32,6 +33,7 @@
   </head>
 
   <body>
+    <!-- nav -->
     <nav class="navbar navbar-light navbar navbar-expand-lg">
       <a style="margin-left:5%;" class="navbar-brand" href="index.html">
         <img src="SuDragonProfile.png" alt="수수체" width="60" height="60">
@@ -49,32 +51,34 @@
       </div>
     </nav>
 
+    <!-- 수수체 게임 스크린샷 -->
     <div style="text-align: center; margin: 20px 0;" class="page">
+      <!-- 부트스트랩 carousel 아이템 -->
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-          </ol>
-          <div class="carousel-inner"  style="width:900px; height:500px; margin:auto;">
-            <div class="carousel-item active">
-              <img src="googleplayIMG/start.jpg" class="d-block w-100" alt="start_image">
-            </div>
-            <div class="carousel-item">
-              <img src="googleplayIMG/menu.jpg" class="d-block w-100" alt="menu_image">
-            </div>
-            <div class="carousel-item">
-              <img src="googleplayIMG/game1.jpg" class="d-block w-100" alt="game1_image">
-            </div>
-            <div class="carousel-item">
-              <img src="googleplayIMG/game2.jpg" class="d-block w-100" alt="game2_image">
-            </div>
-            <div class="carousel-item">
-              <img src="googleplayIMG/game3.jpg" class="d-block w-100" alt="game3_image">
-            </div>
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner"  style="width:900px; height:500px; margin:auto;">
+          <div class="carousel-item active">
+            <img src="googleplayIMG/start.jpg" class="d-block w-100" alt="start_image">
           </div>
+          <div class="carousel-item">
+            <img src="googleplayIMG/menu.jpg" class="d-block w-100" alt="menu_image">
+          </div>
+          <div class="carousel-item">
+            <img src="googleplayIMG/game1.jpg" class="d-block w-100" alt="game1_image">
+          </div>
+          <div class="carousel-item">
+            <img src="googleplayIMG/game2.jpg" class="d-block w-100" alt="game2_image">
+          </div>
+          <div class="carousel-item">
+            <img src="googleplayIMG/game3.jpg" class="d-block w-100" alt="game3_image">
+          </div>
+        </div>
       </div>
 
       <div style="width:900px; margin:2% auto;">
@@ -85,12 +89,13 @@
       </div>
       <p style="text-align:center; clear:both;" class="nanumFont_ms">&#8251; Google Play 및 Google Play 로고는 Google LLC의 상표입니다.</p>
       <p style="text-align:center; clear:both;" class="nanumFont_ms">&#8251; 이 페이지에는 네이버에서 제공한 나눔글꼴이 적용되어 있습니다.</p>
-  </div>
+    </div>
 
+    <!-- 로딩 -->
     <div id="loading">
       <p id="loadingmsg" class="nanumFont">로딩 중입니다. 잠시만 기다려주세요!!</p>
       <div id="loadingimg">
-	       <img src="loadingANI2.gif" alt="loading"/>
+    	  <img src="loadingANI2.gif" alt="loading"/>
       </div>
     </div>
   </body>

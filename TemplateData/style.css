@@ -2,7 +2,7 @@
 /* 여기서 width, height 지정해주면 그것이 canvas(게임 실제 화면)의 크기가 됨 */
 /* 그러나 게임 이름이 영역을 벗어나므로 다시 삭제해봄 -> width:720px; 이 코드가 들어가는 순간 게임명이 영역 벗어남*/
 .webgl-content {position:static; width: 720px; height: 400px; margin:auto;}
-  /* position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); */
+  /* .webgl-content는 원래 이 코드 : position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); */
 .webgl-content .logo, .progress {position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
 .webgl-content .logo {background: url('progressLogo.Light.png') no-repeat center / contain; width: 154px; height: 130px;}
 .webgl-content .progress {height: 18px; width: 141px; margin-top: 90px;}
